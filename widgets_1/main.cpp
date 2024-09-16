@@ -1,19 +1,27 @@
-#include <QCoreApplication>
+#include  <QApplication >
+#include  <QWidget >
+#include  <QHBoxLayout >
+#include  <QPushButton >
 
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
+    QApplication app(argc, argv);
 
-    // Set up code that uses the Qt event loop here.
-    // Call a.quit() or a.exit() to quit the application.
-    // A not very useful example would be including
-    // #include <QTimer>
-    // near the top of the file and calling
-    // QTimer::singleShot(5000, &a, &QCoreApplication::quit);
-    // which quits the application after 5 seconds.
+    QWidget* widget = new QWidget;
+    widget -> setWindowTitle("METANIT.COM");
 
-    // If you do not need a running Qt event loop, remove the call
-    // to a.exec() or use the Non-Qt Plain C++ Application template.
+    QPushButton *btn1 = new QPushButton("Button 1");
+    QPushButton *btn2 = new QPushButton("Button 2");
+    QPushButton *btn3 = new QPushButton("Button 3");
 
-    return a.exec();
+    QHBoxLayout *layout = new QHBoxLayout(widget);
+    layout->addStrut(100); // минимальный размер
+    layout->addWidget(btn1);
+    layout->addWidget(btn2);
+    layout->addWidget(btn3);
+    // расположение справа налево
+    layout->setDirection(QBoxLayout::Direction::RightToLeft);
+
+    widget->show();
+    return app.exec();
 }
