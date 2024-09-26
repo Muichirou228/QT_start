@@ -1,0 +1,5 @@
+module FirstQTQuick
+typeinfo appFirstQTQuick.qmltypes
+prefer :/qt/qml/FirstQTQuick/
+Main 1.0 Main.qml
+

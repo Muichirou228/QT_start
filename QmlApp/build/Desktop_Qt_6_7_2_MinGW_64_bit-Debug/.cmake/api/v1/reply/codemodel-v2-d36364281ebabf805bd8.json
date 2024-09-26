@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b62f08902b4c6f0e0dcd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QmlApp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "QmlApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QmlApp-Debug-9f1b4d4ec627210a41c4.json",
+					"name" : "QmlApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QmlApp_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QmlApp_autogen-Debug-0574339746886454acae.json",
+					"name" : "QmlApp_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QmlApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QmlApp_autogen_timestamp_deps-Debug-a38e43dcea074eb69615.json",
+					"name" : "QmlApp_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QmlApp_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QmlApp_qmlimportscan-Debug-915b8897dcc0906b664c.json",
+					"name" : "QmlApp_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QmlApp_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QmlApp_qmllint-Debug-42fb0bb055f25a7ce196.json",
+					"name" : "QmlApp_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QmlApp_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QmlApp_qmllint_json-Debug-9b90ac34677cbf74d418.json",
+					"name" : "QmlApp_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QmlApp_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QmlApp_qmllint_module-Debug-0114c4c4d0d0eadda197.json",
+					"name" : "QmlApp_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QmlApp_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QmlApp_qmltyperegistration-Debug-6a696de53edffc18a263.json",
+					"name" : "QmlApp_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QmlApp_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QmlApp_tooling-Debug-982322af414362630b1b.json",
+					"name" : "QmlApp_tooling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-e6c9614e3d2e6217764c.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-24fe002f74e26b7cecb4.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-c7563b911bcfd375fe91.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-6a7229d9e2cd85844ead.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/79627/Desktop/College/QT/QmlApp/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/79627/Desktop/College/QT/QmlApp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

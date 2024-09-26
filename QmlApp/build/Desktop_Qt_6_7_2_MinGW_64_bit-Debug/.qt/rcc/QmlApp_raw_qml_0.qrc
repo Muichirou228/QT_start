@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/path/">
+    <file alias="main.qml">C:/Users/79627/Desktop/College/QT/QmlApp/main.qml</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/FirstQTQuick/">
+    <file alias="Main.qml">C:/Users/79627/Desktop/College/QT/FirstQTQuick/Main.qml</file>
+  </qresource>
+</RCC>
+
