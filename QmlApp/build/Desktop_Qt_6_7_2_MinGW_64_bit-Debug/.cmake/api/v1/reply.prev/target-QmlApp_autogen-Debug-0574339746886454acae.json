@@ -20,6 +20,10 @@
 			"id" : "QmlApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
 	"id" : "QmlApp_autogen::@6890427a1f51a3e7e1df",
 	"isGeneratorProvided" : true,
 	"name" : "QmlApp_autogen",

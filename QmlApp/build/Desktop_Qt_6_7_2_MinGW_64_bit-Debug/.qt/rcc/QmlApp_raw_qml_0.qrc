@@ -1,6 +1,9 @@
 <RCC>
   <qresource prefix="/path/">
     <file alias="main.qml">C:/Users/79627/Desktop/College/QT/QmlApp/main.qml</file>
+    <file alias="images/catnap1.jpeg">C:/Users/79627/Desktop/College/QT/QmlApp/images/catnap1.jpeg</file>
+    <file alias="images/catnap2.jpeg">C:/Users/79627/Desktop/College/QT/QmlApp/images/catnap2.jpeg</file>
+    <file alias="images/catnap3.jpeg">C:/Users/79627/Desktop/College/QT/QmlApp/images/catnap3.jpeg</file>
   </qresource>
 </RCC>
 

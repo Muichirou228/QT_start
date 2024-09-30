@@ -14,6 +14,21 @@
 			}
 		]
 	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "QmlApp_tooling::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "QmlApp_qmlimportscan::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
 	"id" : "QmlApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
 	"isGeneratorProvided" : true,
 	"name" : "QmlApp_autogen_timestamp_deps",

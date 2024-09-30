@@ -19,6 +19,7 @@ qt_add_qml_module(QmlApp
     URI path      # ссылка, по которой будут загружаться файлы qml
     VERSION 1.0
     QML_FILES main.qml
+    RESOURCES images/catnap1.jpeg images/catnap2.jpeg images/catnap3.jpeg
 )
 
 target_link_libraries(QmlApp

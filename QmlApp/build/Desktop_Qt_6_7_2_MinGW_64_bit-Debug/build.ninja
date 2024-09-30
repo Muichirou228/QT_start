@@ -175,7 +175,7 @@ build all_qmllint_module: phony QmlApp_qmllint_module
 #############################################
 # Utility command for QmlApp_tooling
 
-build QmlApp_tooling: phony path/main.qml
+build QmlApp_tooling: phony path/main.qml path/images/catnap1.jpeg path/images/catnap2.jpeg path/images/catnap3.jpeg
 
 
 #############################################
@@ -310,7 +310,7 @@ build .rcc/qmlcache/QmlApp_main_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/Qm
 #############################################
 # Custom command for .qt\rcc\qrc_QmlApp_raw_qml_0.cpp
 
-build .qt/rcc/qrc_QmlApp_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_QmlApp_raw_qml_0.cpp: CUSTOM_COMMAND C$:/Users/79627/Desktop/College/QT/QmlApp/main.qml .qt/rcc/QmlApp_raw_qml_0.qrc C$:/Qt/6.7.2/mingw_64/./bin/rcc.exe || QmlApp_autogen QmlApp_autogen_timestamp_deps QmlApp_qmlimportscan QmlApp_tooling
+build .qt/rcc/qrc_QmlApp_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_QmlApp_raw_qml_0.cpp: CUSTOM_COMMAND C$:/Users/79627/Desktop/College/QT/QmlApp/main.qml C$:/Users/79627/Desktop/College/QT/QmlApp/images/catnap1.jpeg C$:/Users/79627/Desktop/College/QT/QmlApp/images/catnap2.jpeg C$:/Users/79627/Desktop/College/QT/QmlApp/images/catnap3.jpeg .qt/rcc/QmlApp_raw_qml_0.qrc C$:/Qt/6.7.2/mingw_64/./bin/rcc.exe || QmlApp_autogen QmlApp_autogen_timestamp_deps QmlApp_qmlimportscan QmlApp_tooling
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\79627\Desktop\College\QT\QmlApp\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug && C:\Qt\6.7.2\mingw_64\.\bin\rcc.exe --output C:/Users/79627/Desktop/College/QT/QmlApp/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_QmlApp_raw_qml_0.cpp --name QmlApp_raw_qml_0 C:/Users/79627/Desktop/College/QT/QmlApp/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/QmlApp_raw_qml_0.qrc --no-zstd"
   DESC = Running rcc for resource QmlApp_raw_qml_0
   restat = 1
@@ -369,6 +369,33 @@ build CMakeFiles/QmlApp_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/QmlApp
 build path/main.qml | ${cmake_ninja_workdir}path/main.qml: CUSTOM_COMMAND C$:/Users/79627/Desktop/College/QT/QmlApp/main.qml
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\79627\Desktop\College\QT\QmlApp && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/79627/Desktop/College/QT/QmlApp/main.qml C:/Users/79627/Desktop/College/QT/QmlApp/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/path/main.qml"
   DESC = Copying main.qml to C:/Users/79627/Desktop/College/QT/QmlApp/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/path/main.qml
+  restat = 1
+
+
+#############################################
+# Custom command for path\images\catnap1.jpeg
+
+build path/images/catnap1.jpeg | ${cmake_ninja_workdir}path/images/catnap1.jpeg: CUSTOM_COMMAND C$:/Users/79627/Desktop/College/QT/QmlApp/images/catnap1.jpeg
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\79627\Desktop\College\QT\QmlApp && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/79627/Desktop/College/QT/QmlApp/images/catnap1.jpeg C:/Users/79627/Desktop/College/QT/QmlApp/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/path/images/catnap1.jpeg"
+  DESC = Copying images/catnap1.jpeg to C:/Users/79627/Desktop/College/QT/QmlApp/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/path/images/catnap1.jpeg
+  restat = 1
+
+
+#############################################
+# Custom command for path\images\catnap2.jpeg
+
+build path/images/catnap2.jpeg | ${cmake_ninja_workdir}path/images/catnap2.jpeg: CUSTOM_COMMAND C$:/Users/79627/Desktop/College/QT/QmlApp/images/catnap2.jpeg
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\79627\Desktop\College\QT\QmlApp && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/79627/Desktop/College/QT/QmlApp/images/catnap2.jpeg C:/Users/79627/Desktop/College/QT/QmlApp/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/path/images/catnap2.jpeg"
+  DESC = Copying images/catnap2.jpeg to C:/Users/79627/Desktop/College/QT/QmlApp/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/path/images/catnap2.jpeg
+  restat = 1
+
+
+#############################################
+# Custom command for path\images\catnap3.jpeg
+
+build path/images/catnap3.jpeg | ${cmake_ninja_workdir}path/images/catnap3.jpeg: CUSTOM_COMMAND C$:/Users/79627/Desktop/College/QT/QmlApp/images/catnap3.jpeg
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\79627\Desktop\College\QT\QmlApp && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/79627/Desktop/College/QT/QmlApp/images/catnap3.jpeg C:/Users/79627/Desktop/College/QT/QmlApp/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/path/images/catnap3.jpeg"
+  DESC = Copying images/catnap3.jpeg to C:/Users/79627/Desktop/College/QT/QmlApp/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/path/images/catnap3.jpeg
   restat = 1
 
 

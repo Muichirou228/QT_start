@@ -1,29 +1,73 @@
 import QtQuick 2.15
 import QtQuick.Layouts
+import QtQuick.Controls
+import QtQuick.Controls 2.15
 Window {
-    id:wind
-    width: 400
-    height: 250
+    width: 500
+    height: 500
+    maximumHeight: 500
+    maximumWidth: 500
     visible: true
-    title: qsTr("Hello METANIT.COM")
-    RowLayout{
-        Layout.alignment: horizontalCenter | verticalCenter
-        spacing: 0
-           Rectangle{
-               Layout.preferredHeight: 100
-               Layout.preferredWidth: wind.width * 0.3
-               color: "#eb4d4b"    // красный
-           }
-           Rectangle{
-               Layout.fillHeight: true
-               Layout.preferredWidth: wind.width * 0.3
-               color: "#16a085"    // зеленый
-           }
-           Rectangle{
-               Layout.preferredHeight: 80
-               Layout.preferredWidth: wind.width * 0.3
-               color: "#0984e3"    // синий
-           }
-       }
+    title: "METANIT.COM"
+    id:wind
+
+    Rectangle {
+        anchors.left: parent.left
+        width: parent.width * 0.5
+        height: parent.height
+        color: "transparent"
+        id:leftarea
+        MouseArea {
+            anchors.fill: leftarea
+            onClicked: {
+             swipe.currentIndex = Math.max (0, swipe.currentIndex - 1)
+            }
+    }
+    }
+
+    Rectangle {
+        anchors.right: parent.right
+        width: parent.width * 0.5
+        height: parent.height
+        color: "transparent"
+        id:rightarea
+        MouseArea {
+            anchors.fill: rightarea
+            onClicked: {
+                swipe.currentIndex = Math.min (swipe.count - 1, swipe.currentIndex + 1)
+            }
+        }
+    }
+
+    SwipeView {
+        id:swipe
+        interactive: false
+        anchors.fill: wind
+        Image {
+            source:  "images/catnap1.jpeg"
+            anchors.fill: wind
+        }
+
+        Image {
+            source:  "images/catnap2.jpeg"
+            anchors.fill: wind
+        }
+
+        Image {
+            source:  "images/catnap3.jpeg"
+            anchors.fill: wind
+        }
+}
+        PageIndicator {
+                id: indicator
+                count: swipe.count       // количество страниц
+                currentIndex: swipe.currentIndex // текущая страница
+                anchors.bottom: parent.bottom
+                anchors.horizontalCenter: parent.horizontalCenter
+        }
 
 }
+
+
+
+
