@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-39ee887a4bb19b501ba5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SpinboxSwitchSlider",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-e0abe5edf399d4fdb05b.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-834b0d6d73a4b445ccc6.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-bfb77df5189600638f73.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-a74b7c0c496fe791c902.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSpinboxSwitchSlider::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSpinboxSwitchSlider-Debug-597ac064b552aabfea78.json",
+					"name" : "appSpinboxSwitchSlider",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSpinboxSwitchSlider_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSpinboxSwitchSlider_autogen-Debug-b3d73e3e7fbf14e69b96.json",
+					"name" : "appSpinboxSwitchSlider_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSpinboxSwitchSlider_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSpinboxSwitchSlider_autogen_timestamp_deps-Debug-d2e36c60ac5b4a1dc4fe.json",
+					"name" : "appSpinboxSwitchSlider_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSpinboxSwitchSlider_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSpinboxSwitchSlider_qmlimportscan-Debug-2e031889326158beb55b.json",
+					"name" : "appSpinboxSwitchSlider_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSpinboxSwitchSlider_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSpinboxSwitchSlider_qmllint-Debug-fc0e57b3b7ca62919136.json",
+					"name" : "appSpinboxSwitchSlider_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSpinboxSwitchSlider_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSpinboxSwitchSlider_qmllint_json-Debug-a27aafdeed3c3666136d.json",
+					"name" : "appSpinboxSwitchSlider_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSpinboxSwitchSlider_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSpinboxSwitchSlider_qmllint_module-Debug-329e5c32e47e46c1a5ef.json",
+					"name" : "appSpinboxSwitchSlider_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSpinboxSwitchSlider_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSpinboxSwitchSlider_qmltyperegistration-Debug-92c65c4437ad8f208c62.json",
+					"name" : "appSpinboxSwitchSlider_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSpinboxSwitchSlider_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSpinboxSwitchSlider_tooling-Debug-ca71fe6f37c5b7e5aaf9.json",
+					"name" : "appSpinboxSwitchSlider_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/79627/Desktop/College/QT/SpinboxSwitchSlider/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/79627/Desktop/College/QT/SpinboxSwitchSlider"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

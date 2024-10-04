@@ -1,0 +1,5 @@
+module SpinboxSwitchSlider
+typeinfo appSpinboxSwitchSlider.qmltypes
+prefer :/qt/qml/SpinboxSwitchSlider/
+Main 1.0 Main.qml
+
