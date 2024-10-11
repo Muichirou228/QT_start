@@ -1,0 +1,5 @@
+module signals2
+typeinfo appsignals2.qmltypes
+prefer :/qt/qml/signals2/
+Main 1.0 Main.qml
+
