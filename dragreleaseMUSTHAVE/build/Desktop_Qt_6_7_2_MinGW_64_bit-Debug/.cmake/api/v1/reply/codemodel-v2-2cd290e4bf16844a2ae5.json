@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-2fca8b799e08e2f8bcf3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dragreleaseMUSTHAVE",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-835d4b6ed0f2853a6163.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-18ae7cc69232c2041469.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-7340f82c56bb648aac09.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-9d6c57c818b32aabb62d.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdragreleaseMUSTHAVE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdragreleaseMUSTHAVE-Debug-9b17dcce284a57e8f588.json",
+					"name" : "appdragreleaseMUSTHAVE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdragreleaseMUSTHAVE_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdragreleaseMUSTHAVE_autogen-Debug-308be13f9c05600ac115.json",
+					"name" : "appdragreleaseMUSTHAVE_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdragreleaseMUSTHAVE_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdragreleaseMUSTHAVE_autogen_timestamp_deps-Debug-68dd425b86e5fd4ffe8b.json",
+					"name" : "appdragreleaseMUSTHAVE_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdragreleaseMUSTHAVE_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdragreleaseMUSTHAVE_qmlimportscan-Debug-3997ddc8158329db6e02.json",
+					"name" : "appdragreleaseMUSTHAVE_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdragreleaseMUSTHAVE_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdragreleaseMUSTHAVE_qmllint-Debug-6ae38e5ed47915d211cf.json",
+					"name" : "appdragreleaseMUSTHAVE_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdragreleaseMUSTHAVE_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdragreleaseMUSTHAVE_qmllint_json-Debug-17fb628e20beea92173b.json",
+					"name" : "appdragreleaseMUSTHAVE_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdragreleaseMUSTHAVE_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdragreleaseMUSTHAVE_qmllint_module-Debug-71e992701491529f24c0.json",
+					"name" : "appdragreleaseMUSTHAVE_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdragreleaseMUSTHAVE_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdragreleaseMUSTHAVE_qmltyperegistration-Debug-f3080fe152cffaf67d22.json",
+					"name" : "appdragreleaseMUSTHAVE_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdragreleaseMUSTHAVE_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdragreleaseMUSTHAVE_tooling-Debug-42b4a057eb986a5a68ee.json",
+					"name" : "appdragreleaseMUSTHAVE_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/79627/Desktop/College/QT/dragreleaseMUSTHAVE/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/79627/Desktop/College/QT/dragreleaseMUSTHAVE"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

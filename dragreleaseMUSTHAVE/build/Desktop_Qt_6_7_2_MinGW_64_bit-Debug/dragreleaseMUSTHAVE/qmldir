@@ -1,0 +1,5 @@
+module dragreleaseMUSTHAVE
+typeinfo appdragreleaseMUSTHAVE.qmltypes
+prefer :/qt/qml/dragreleaseMUSTHAVE/
+Main 1.0 Main.qml
+

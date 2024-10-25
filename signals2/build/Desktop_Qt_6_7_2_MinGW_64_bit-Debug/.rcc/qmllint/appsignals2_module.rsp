@@ -1,0 +1,10 @@
+-I
+C:/Users/79627/Desktop/College/QT/signals2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug
+-I
+C:/Qt/6.7.2/mingw_64/./qml
+--resource
+C:/Users/79627/Desktop/College/QT/signals2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qmake_signals2.qrc
+--resource
+C:/Users/79627/Desktop/College/QT/signals2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/appsignals2_raw_qml_0.qrc
+--module
+signals2
