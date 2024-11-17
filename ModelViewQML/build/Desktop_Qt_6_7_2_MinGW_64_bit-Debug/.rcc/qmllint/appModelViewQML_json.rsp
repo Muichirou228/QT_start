@@ -1,0 +1,12 @@
+--bare
+-I
+C:/Users/79627/Desktop/College/QT/ModelViewQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug
+-I
+C:/Qt/6.7.2/mingw_64/./qml
+--resource
+C:/Users/79627/Desktop/College/QT/ModelViewQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qmake_ModelViewQML.qrc
+--resource
+C:/Users/79627/Desktop/College/QT/ModelViewQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/appModelViewQML_raw_qml_0.qrc
+C:/Users/79627/Desktop/College/QT/ModelViewQML/Main.qml
+--json
+C:/Users/79627/Desktop/College/QT/ModelViewQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/appModelViewQML_qmllint.json

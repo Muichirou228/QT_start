@@ -1,0 +1,5 @@
+module ModelViewQML
+typeinfo appModelViewQML.qmltypes
+prefer :/qt/qml/ModelViewQML/
+Main 1.0 Main.qml
+
