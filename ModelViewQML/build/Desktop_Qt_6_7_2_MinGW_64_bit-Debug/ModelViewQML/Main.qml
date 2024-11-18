@@ -20,12 +20,46 @@ Window {
             spacing: 5
     }
 } */
-
+/* 2
+Модель загружается в main.cpp
     ListView {
             objectName: "listView"
             anchors.fill: parent
             delegate: Text { text: modelData }
         }
 
+}*/
+ListView {
+    id: view
+    anchors.fill: parent
+    highlight: Rectangle {color: "gray"}
+    focus: true
+    model: ListModel {
+        ListElement {
+            name: "Alex"
+            age: 29
+        }
+        ListElement{
+            name: "Kirill"
+            age: 30
+        }
+        ListElement {
+            name: "Bagir"
+            age: 40
+        }
+    }
+    delegate: Item {
+        width: view.width
+        height: 45
+        Column {
+            Text {text: name}
+            Text {text: age}
+        }
+        MouseArea {
+            anchors.fill: parent
+            onClicked: view.currentIndex = index
+        }
+    }
+}
 }
 

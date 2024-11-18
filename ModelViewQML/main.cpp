@@ -19,8 +19,8 @@ int main(int argc, char *argv[])
         []() { QCoreApplication::exit(-1); },
         Qt::QueuedConnection);
     engine.loadFromModule("ModelViewQML", "Main");
-    QObject* listView = engine.rootObjects().first()->findChild<QObject*>("listView");
-    listView->setProperty("model", dataList); // для второго задания загружаем в найденное представление модель datalist
+    //QObject* listView = engine.rootObjects().first()->findChild<QObject*>("listView");
+    //listView->setProperty("model", dataList); // для второго задания загружаем в найденное представление модель datalist
 
 
     return app.exec();

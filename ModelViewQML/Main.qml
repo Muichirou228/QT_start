@@ -30,5 +30,38 @@ Window {
 
 }*/
 
+/* 3 Список с выделением, МАСТХЕВ типа
+ListView {
+    id: view
+    anchors.fill: parent
+    highlight: Rectangle {color: "gray"}
+    focus: true
+    model: ListModel {
+        ListElement {
+            name: "Alex"
+            age: 29
+        }
+        ListElement{
+            name: "Kirill"
+            age: 30
+        }
+        ListElement {
+            name: "Bagir"
+            age: 40
+        }
+    }
+    delegate: Item {
+        width: view.width
+        height: 45
+        Column {
+            Text {text: name}
+            Text {text: age}
+        }
+        MouseArea {
+            anchors.fill: parent
+            onClicked: view.currentIndex = index
+        }
+    }
+} */
 }
 
