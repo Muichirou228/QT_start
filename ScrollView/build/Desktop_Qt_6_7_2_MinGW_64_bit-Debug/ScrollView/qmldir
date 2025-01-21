@@ -1,0 +1,5 @@
+module ScrollView
+typeinfo appScrollView.qmltypes
+prefer :/qt/qml/ScrollView/
+Main 1.0 Main.qml
+
